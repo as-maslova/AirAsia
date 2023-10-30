@@ -1,0 +1,366 @@
+* {
+    box-sizing: border-box;
+}
+
+.img-background {
+    background-image: ./folder/azia/fon.jpg; 
+    background-repeat: no-repeat; 
+    width: 1920px; 
+    height: 2930px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    margin: 0;
+ }
+
+ ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+address {
+    font-style: normal;
+}
+
+.contacts__tel {
+    font-size: 26px;
+}
+
+.contacts__graph {
+    font-size: 13px;
+}
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+.preview__title {
+    font-size: 72px;
+    width: 520px;
+    height: 200px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.preview__info {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+button {
+    background: transparent;
+    padding: 0;
+    border: 1px solid transparent;
+    margin-bottom: 250px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+.wrapper {
+    background: #001821;
+    color: white;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 100px;
+    position: relative;
+}
+
+.logo, .menu, .contacts {
+    position: absolute;
+}
+
+.logo {
+    top: 29px;
+}
+
+.menu {
+    left: 160px;
+    top: 42px;
+}
+
+.contacts {
+    right: 0;
+    top: 26.64px;
+    text-align:right
+}
+
+.contacts__tel {
+    display: block;
+}
+
+.contacts__graph {
+    position: relative;
+    top: -5px;
+}
+.menu__item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu__item:last-child {
+    margin-right: 0;
+}
+
+.footer {
+    position: relative;
+}
+
+.button {
+    background: #F5170E;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+
+    text-transform: uppercase;
+    border-radius: 35px;
+    min-width: 168px;
+    min-height: 55px;
+    cursor: pointer;
+}
+
+.hot-tours__title-text , .hot-tours__title-icon {
+    display: inline-block;  
+}
+
+.hot-tours__item {
+    background: #fff;
+    display: inline-block;
+    width: 362px;
+    height: 450px;
+    margin-right: 22px;   
+    margin-top: 48px;
+    border-radius: 2%;
+}
+
+.hot-tours__item:last-child {
+    margin-right: 0;
+}
+
+.hot-tours__options-item {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.hot-tours__options-icon {
+    margin-right: 5px; 
+    margin-left: 5px; 
+}
+
+.hot-tours__subtitle {
+    font-size: 24px;
+}
+
+.hot-tours__options-text {
+    font-size: 16px;
+    margin-right: 13px;
+}
+
+.hot-tours__text {
+    font-size: 14px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.hot-tours__content {
+    padding: 30px 22px 26px 22px;
+    color: black;
+    width: 324px;
+    height: 200px;
+}
+
+.button--border {
+    background: transparent;
+    color: #F5170E;
+    border-color: #F5170E;
+
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+
+    text-transform: uppercase;
+    border-radius: 35px;
+    min-width: 135px;
+    min-height: 55px;
+    cursor: pointer;
+}
+
+.button--button {
+    background: #F5170E;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+
+    text-transform: uppercase;
+    border-radius: 35px;
+    min-width: 135px;
+    min-height: 55px;
+    cursor: pointer;
+}
+
+.news__item {
+    display: inline-block;
+    width: 557px;
+    height: 555px;
+    margin-right: 20px;
+    color: white;
+    position: relative;
+    border-radius: 5px;
+}
+
+.news__item:last-child {
+    margin-right: 0;
+}
+
+.news__title {
+margin-top: 125px;
+margin-bottom: 50px;
+}
+
+.news__content {
+    position: absolute;
+    top: 255px;
+    left: 25px;
+    padding: 0, 31px;
+}
+
+.news__date {
+    font-size: 14px;
+}
+
+.news__subtitle {
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 5px;
+}
+
+.news__text {
+    font-size: 16px;
+}
+.paginator {
+    text-align: center;
+    position: relative;
+    top: -105px;
+}
+
+.paginator__display , .paginator__list , .paginator__item {
+    display: inline-block;
+}
+
+.paginator__display {
+    font-size: 16px;
+}
+.paginator__link {
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 32px;
+    color: white;
+    transition: .4s;
+    font-size: 16px;
+}
+
+.paginator__link:hover {
+    background: white;
+    color: #F5170E;
+}
+
+.about__img {
+    display: inline-block;
+    width: 490px;
+    height: 505px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.about__content {
+    display: inline-block;
+    color: black;
+    width: 745px;
+    height: 455px;
+    padding: 70px 50px 65px 50px;
+    margin-top: 140px;
+    margin-left: -140px;
+}
+
+.about__bg {
+    position: relative;
+    top: -70px;
+    left: -55px;
+}
+
+.about__title {
+    position: relative;
+    top: -465px;
+    left: 30px;
+    font-size: 36px;
+}
+
+.about__text {
+    font-size: 16px;
+    line-height: 1.7em;
+    position: relative;
+    top: -425px;
+    left: 30px;
+    width: 502px;
+}
+
+.about__button {
+    position: relative;
+    top: -385px;
+    left: 30px;
+}
+
+
+.footer {
+    height: 100px;
+    position: relative;
+    top: -280px;
+    border-top: 1px solid #fff;
+    margin-top: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.socials {
+    position: absolute;
+    right:265px;
+    bottom: 50px;;
+}
+
+.socials__item {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.contacts__free-call {
+    font-size: 11px;
+    position: relative;
+    left: 0px;
+}
