@@ -2,13 +2,6 @@
     box-sizing: border-box;
 }
 
-.img-background {
-    background-image: ./folder/azia/fon.jpg; 
-    background-repeat: no-repeat; 
-    width: 1920px; 
-    height: 2930px;
-}
-
 body {
     font-family: 'Open Sans', sans-serif; 
     font-weight: 400;
