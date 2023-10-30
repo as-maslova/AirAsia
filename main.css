@@ -64,6 +64,10 @@ h2 {
 
 .wrapper {
     background: #001821;
+    background-image: url('./folder/asia/fon.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+
     color: white;
 }
 
