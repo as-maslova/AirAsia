@@ -1,0 +1,52 @@
+.about {
+    display: flex;
+}
+
+.about__img {
+    
+    width: 490px;
+    height: 505px;
+    vertical-align: top;
+    margin-top: 110px;
+}
+
+.about__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.about__content {
+    
+    color: black;
+    width: 745px;
+    height: 455px;
+    padding: 70px 50px 65px 50px;
+    margin-top: 210px;
+    margin-left: -120px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.about__title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 30px;
+}
+
+.about__text {
+    font-size: 16px;
+    line-height: 1.7em;
+    left: 30px;
+    position: relative;
+    width: 502px;
+}
+
+.about__button {
+    margin-top: 40px;
+    left: 30px;
+    position: relative;
+}

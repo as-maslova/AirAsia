@@ -1,0 +1,84 @@
+.hot-tours__list {
+    /*margin-top: 48px;*/
+    display: flex;
+    padding: 40px 0;
+    justify-content: space-between;
+}
+
+.hot-tours__title-text , .hot-tours__title-icon {
+    display: inline-block; 
+}
+
+.hot-tours__item {
+    background: #fff;
+    height: 450px;
+    margin-right: 22px;   
+    border-radius: 2%;
+}
+
+.hot-tours__item:last-child {
+    margin-right: 0;
+}
+
+.hot-tours__options {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.hot-tours__options-item {
+    display: inline-block;
+}
+
+.hot-tours__options-icon {
+    margin-right: 5px; 
+    margin-left: 5px; 
+}
+
+.hot-tours__subtitle {
+    font-size: 24px;
+}
+
+.hot-tours__options-text {
+    font-size: 16px;
+    margin-right: 13px;
+}
+
+.hot-tours__text {
+    font-size: 14px;
+    width: 300px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+}
+
+.hot-tours__content {
+    padding: 30px 22px 26px 22px;
+    color: black;
+}
+
+.button--border {
+    background: transparent;
+    color: #F5170E;
+    border-color: #F5170E;
+
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+
+    text-transform: uppercase;
+    border-radius: 35px;
+    min-width: 135px;
+    min-height: 55px;
+    cursor: pointer;
+}
+
+.button--button {
+    background: #F5170E;
+    color: white;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 700;
+
+    text-transform: uppercase;
+    border-radius: 35px;
+    min-width: 135px;
+    min-height: 55px;
+    cursor: pointer;
+}

@@ -1,0 +1,73 @@
+.header__left  , .header__right {
+    display: inline-block;
+    width: 20%;
+    padding: 20px 0;
+}
+
+.header__center {
+    text-align: left;
+    display: inline-block;
+    width: 59%;
+    padding: 20px 0;
+}
+
+.header__left {
+    width: 150px;
+    height: 36px;
+}
+
+.header__right {
+    text-align: right;
+    vertical-align: middle;
+}
+
+.address {
+    font-style: normal;
+}
+
+.contacts__tel {
+    font-size: 26px;
+    margin-bottom: -5px;
+}
+
+.contacts__graph {
+    font-size: 13px;
+}
+
+.header {
+    /*height: 100px;*/
+    position: relative;
+}
+
+.logo , .menu--header , .contacts {
+    /*position: absolute;*/
+}
+
+.logo {
+    /*top: 29px;*/
+}
+
+.menu--header {
+    /*left: 160px;
+    top: 42px;*/
+}
+
+.contacts {
+    /*right: 0;
+    top: 26.64px;
+    text-align:right*/
+    font-style: normal;
+}
+
+.contacts__tel {
+    display: block;
+}
+
+.menu__item--header {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu__item--header:last-child {
+    margin-right: 0;
+}
