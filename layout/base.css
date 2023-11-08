@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 400;
+    margin: 0;
+}
+
+    .wrapper {
+        background: #001821;
+        background-image: url('../folder/asia/fon.jpg');
+        background-repeat: no-repeat;
+        background-position: center top;
+        color: white;
+        overflow: hidden;
+        min-width: 1160px;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .container {
+        width: 1140px;
+        margin: 0 auto;
+        flex: 1;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    li {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+
+    h1, h2, h3, h4, h5, p {
+        margin: 0;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .button {
+        background: #F5170E;
+        color: white;
+        font-family: 'Open Sans', sans-serif; 
+        font-weight: 700;
+    
+        text-transform: uppercase;
+        border-radius: 35px;
+        min-width: 168px;
+        min-height: 55px;
+        border: 1px solid transparent;
+        cursor: pointer;
+    }
+    
+
