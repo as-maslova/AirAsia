@@ -8,12 +8,8 @@
     text-align: left;
     display: inline-block;
     width: 59%;
-    padding: 20px 0;
-}
-
-.header__left {
-    width: 150px;
-    height: 36px;
+    padding: 0px 0;
+    
 }
 
 .header__right {
@@ -35,21 +31,13 @@
 }
 
 .header {
-    /*height: 100px;*/
     position: relative;
-}
-
-.logo , .menu--header , .contacts {
-    /*position: absolute;*/
+    display: flex;
+    align-items: center;
 }
 
 .logo {
     /*top: 29px;*/
-}
-
-.menu--header {
-    /*left: 160px;
-    top: 42px;*/
 }
 
 .contacts {
@@ -63,11 +51,11 @@
     display: block;
 }
 
-.menu__item--header {
+.menu__item {
     display: inline-block;
     margin-right: 50px;
 }
 
-.menu__item--header:last-child {
+.menu__item:last-child {
     margin-right: 0;
 }

@@ -54,6 +54,10 @@ body {
         font-size: 36px;
     }
 
+    h1 {
+        font-size: 72px;
+    }
+
     .button {
         background: #F5170E;
         color: white;

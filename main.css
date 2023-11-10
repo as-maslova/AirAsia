@@ -16,8 +16,8 @@
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    background: #001821;
-    background-image: url("../folder/asia/headline.png'") right 20% top no-repeat;
+    background: #001821 url("../folder/asia/headline.png'") right 20% top no-repeat;
+    
     margin-bottom: 10px;
  }
 
@@ -58,8 +58,7 @@
  }
 
  .wrapper--services {
-   background: none;
-   background-image: url("../folder/asia/headline.png'") right 20% top no-repeat;
+   background: url("../folder/asia/headline.png'") right 20% top no-repeat;
  }
 
  .page-content {
@@ -149,8 +148,6 @@ img {
     color: black;
     transition: .4s;
     font-size: 16px;
-    margin-bottom: 30px;
-    margin-top: 30px;
 
 }
 
@@ -200,13 +197,12 @@ margin-left: 0;
 
 .footer-container {
    height: 132px;
-   padding: 45px 380px;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   background: #001821
 }
 
 .inner-footer {
    margin-top: auto;
+   background: #001821;
 }
