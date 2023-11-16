@@ -206,3 +206,360 @@ margin-left: 0;
    margin-top: auto;
    background: #001821;
 }
+
+
+
+.review {
+   
+   margin-bottom: -20px;
+   display: flex;
+   
+   padding: 50px 30px;
+   background: #F4F5F5;
+   border-radius: 4px;
+}
+
+.reviews {
+  
+   column-count: 2;
+   column-gap: 30px;
+   margin-bottom: 70px;
+   
+}
+.reviews__img {
+   border-radius: 50%;
+   width: 142px;
+   height: 142px;
+}
+
+.reviews__header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.rewievs__link-vk {
+   
+   color: #2E77A4;
+   font-size: 24px;
+   
+   display: flex;
+   align-items: center;
+   font-weight: bold;
+   margin-bottom: 11px;
+   margin-left: 20px;
+   margin-right: 20px;
+  
+}
+
+.rewievs__link-vk:after {
+   content: url("../folder/asia/vkblue.png");
+   height: 30px;
+   margin-left: 10px;
+}
+
+.reviews__tags {
+display: flex;
+align-items: flex-start;
+}
+
+.reviews__item {
+   background: #F4F5F5;
+   border-radius: 5px;
+   width: 557px;
+   height: 542px;
+   padding: 50px 30px;
+   display: inline-block;
+   margin-bottom: 20px;
+}
+
+.tag {
+   font-size: 13px;
+   color: #303030;
+   padding: 8px 16px;
+   border-radius: 50px;
+   background: #E7E7E7;
+   margin-left: 20px;
+
+}
+
+.tag--bg--green {
+  background: #B9EAE4; 
+}
+
+.reviews__title {
+   font-size: 30px;
+   color: #1A1B1E;
+   font-weight: bold;
+   margin-bottom: 23px;
+
+}
+.reviews__text {
+   line-height: 1.7em;
+   margin-bottom: 50px;
+}
+
+.reviews__date {
+   font-size: 14px;
+   font-weight: 700px;
+   color: #1A1B1E;
+}
+
+.offer {
+   display: flex;
+   min-width: 360px;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 70px;
+   
+
+}
+
+.offer__title {
+   font-size: 48px;
+   max-width: 594PX;
+   margin-left: 80px;
+   color: white;
+   line-height: 1.2em;
+   margin-top: 120px;
+}
+
+.offer .container {
+   background: url("./folder/asia/Rectangle.png") right 20% top no-repeat;
+ width: 1920px;
+ height: 363px;
+
+}
+
+
+.offer__content {
+  max-width: 70%;
+}
+
+
+.offer__img {
+   margin-left: 80%;
+   margin-top: -220px;
+
+}
+
+.form__title { 
+   font-size: 48px;
+   margin-bottom: 50px;
+   padding-top: 50px;
+}
+
+.feedback__block-item {
+   border: solid transparent 1px;
+   border-color: white;
+   border-radius: 5px;
+   height: 65px;
+   width: 557px;
+   margin-bottom: 26px;
+   padding: 22px 30px;
+   font-size: 18px;
+   color: black;
+
+flex: 1;
+margin-right: 30px;
+
+}
+
+.vk-link {
+   margin-right: 0
+}
+
+.feedback__block-item::placeholder {
+   color: #666666;
+}
+
+.feedback__block-item:last-child {
+   margin-right: 0;
+}
+
+.feedback  {
+   background: #F4F5F5;
+   padding-bottom: 100px;
+}
+
+.feedback__block-item--reviews {
+   min-width: 1142px;
+   height: 235px;
+   resize: none;
+}
+
+input, textarea {
+   outline: none;
+   padding-left: 30px;
+}
+
+.feedback__pages {
+display: flex;
+margin-bottom: 15px;
+}
+
+.feedback__display {
+   width: 40%;
+}
+
+.feedback__block {
+   display: flex;
+   margin-bottom: 10px;
+   flex-wrap: wrap;
+}
+
+.feedback__block-item:focus {
+   border: #F5170E solid 1px;
+}
+
+.feedback__select {
+   display: flex;
+   flex-wrap: wrap;
+   margin-right: 10px;
+   margin-bottom: 30px;
+   flex: 1;
+}
+
+.feedback__select-input:checked ~ .controls__tag {
+background: #B9EAE4;
+}
+
+.feedback__select-input {
+   display: none;
+}
+
+.feedback__label {
+cursor: pointer;
+;
+}
+
+.feedback__select-item {
+   margin-bottom: 10px;
+}
+.feedback__button {
+   display: flex;
+   justify-content: end;
+  
+}
+
+.black-button {
+   background: black;
+}
+
+.form__btn {
+   margin-right: 20px;
+}
+
+.contacts__dropdown-triangle {
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   background: #EDEDED;
+   transform: rotate(45deg);
+   position: absolute;
+   top: -8px;
+   right: 60px;
+}
+
+.contacts__dropdown {
+   background: #EDEDED;
+   position: absolute;
+   top: 100%;
+   transition: opacity 8s;
+   right: 0;
+   border-radius: 3px;
+   width: 160px;
+   height: 70px;
+   color: black;
+   font-size: 13px;
+}
+
+.contacts__dropdown .contacts:hover {
+   right: 0;
+   opacity: 1;
+}
+
+.contacts__dropdown-item {
+   color: black;
+   font-size: 13px;
+line-height: 1.3em;
+   justify-content: center;
+   display: flex;
+
+
+}
+
+.contacts__dropdown-block {
+   padding: 20px;
+}
+
+/*welcome css*/
+
+.welcome {
+   display: flex;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   align-items: center;
+   justify-content: center;
+   background: url("./folder/asia/bg.png") center bottom / cover no-repeat;
+}
+
+.central {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+
+   animation-fill-mode: forwards;
+   opacity: 0;
+   animation: zoom 1s;
+}
+
+@keyframes zoom {
+
+from {
+   transform: scale(0.7);
+}
+
+20% {
+   transform: scale(1.15);
+}
+
+40% {
+   transform: scale(.9);
+}
+
+60% {
+   transform: scale(1.1);
+}
+
+80% {
+   transform: scale(0.95);
+}
+
+to {
+   opacity: 1;
+   transform: scale(1);
+}
+
+}
+
+
+.central__logo {
+  
+}
+
+.welcome__text {
+   font-size: 18px;
+   color: white;
+margin-bottom: 50px;
+}
+
+.welcome__button {
+   padding-top: 20px;
+   padding-left: 55px;
+}

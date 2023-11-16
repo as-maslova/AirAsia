@@ -58,6 +58,10 @@ body {
         font-size: 72px;
     }
 
+    h3 {
+        font-size: 30px;
+    }
+
     .button {
         background: #F5170E;
         color: white;
@@ -72,4 +76,8 @@ body {
         cursor: pointer;
     }
     
+
+
+
+
 
