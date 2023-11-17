@@ -253,9 +253,12 @@ margin-left: 0;
 }
 
 .rewievs__link-vk:after {
-   content: url("../folder/asia/vkblue.png");
+   
+   background: url("./folder/asia/sprite.png") -10px -10px;
    height: 30px;
+   width: 30px;
    margin-left: 10px;
+   position: absolute;
 }
 
 .reviews__tags {
@@ -279,7 +282,7 @@ align-items: flex-start;
    padding: 8px 16px;
    border-radius: 50px;
    background: #E7E7E7;
-   margin-left: 20px;
+   
 
 }
 
@@ -312,6 +315,8 @@ align-items: flex-start;
    align-items: center;
    justify-content: center;
    margin-top: 70px;
+   background: url("./folder/asia/Rectangle.png") right 20% top no-repeat;
+ 
    
 
 }
@@ -319,16 +324,16 @@ align-items: flex-start;
 .offer__title {
    font-size: 48px;
    max-width: 594PX;
-   margin-left: 80px;
+   
    color: white;
    line-height: 1.2em;
    margin-top: 120px;
 }
 
 .offer .container {
-   background: url("./folder/asia/Rectangle.png") right 20% top no-repeat;
- width: 1920px;
+   
  height: 363px;
+ position: relative;
 
 }
 
@@ -339,8 +344,9 @@ align-items: flex-start;
 
 
 .offer__img {
-   margin-left: 80%;
-   margin-top: -220px;
+  position: absolute;
+ right: 0px;
+  bottom: 0px;
 
 }
 
@@ -436,6 +442,7 @@ cursor: pointer;
 
 .feedback__select-item {
    margin-bottom: 10px;
+   margin-left: 20px;
 }
 .feedback__button {
    display: flex;
@@ -449,6 +456,14 @@ cursor: pointer;
 
 .form__btn {
    margin-right: 20px;
+}
+
+/*.contacts__dropdown:after {
+   content: url("./folder/asia/vkblue.png");
+}*/
+
+.contacts:hover ~ .contacts__dropdown {
+display: block;
 }
 
 .contacts__dropdown-triangle {
@@ -473,6 +488,7 @@ cursor: pointer;
    height: 70px;
    color: black;
    font-size: 13px;
+   display: none;
 }
 
 .contacts__dropdown .contacts:hover {
@@ -493,6 +509,8 @@ line-height: 1.3em;
 .contacts__dropdown-block {
    padding: 20px;
 }
+
+
 
 /*welcome css*/
 
@@ -515,7 +533,7 @@ line-height: 1.3em;
    flex-direction: column;
 
    animation-fill-mode: forwards;
-   opacity: 0;
+   opacity: 1;
    animation: zoom 1s;
 }
 
@@ -560,6 +578,6 @@ margin-bottom: 50px;
 }
 
 .welcome__button {
-   padding-top: 20px;
-   padding-left: 55px;
+   text-align: center;
+   line-height: 55px;
 }
